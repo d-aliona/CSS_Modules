@@ -1,0 +1,88 @@
+.container {
+    width: 1260px;
+    height: 560px;
+    position: relative;
+    margin: 60px auto 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;    
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 12px 20px rgba(138, 138, 138, 0.15); 
+}
+
+.imgMap {
+    position: absolute;
+    left: 0;
+    top: -1px;
+}
+
+.imgLogo {
+    position: absolute;
+    left: 350px;
+    top: 355px;
+}
+
+.form_heading {
+    position: absolute;
+    left: 936px;
+    top: 50px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form_inputs {
+    position: absolute;
+    right: 103px;
+    bottom: 34px;
+    width: 320px;
+    height: 417px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input {
+    height: 34px;
+    border: 1px solid #F8F8F8;
+    box-shadow: 0 2px 12px rgba(138, 138, 138, 0.15);
+    border-radius: 10px;
+}
+
+.input::placeholder {
+    padding-left: 22px;
+    color: #C4C4C4;
+    font-size: 12px;
+}
+
+.input_message::placeholder {
+    padding-left: 23px;
+    padding-top: 7px;
+    color: #C4C4C4;
+    font-size: 12px;
+}
+
+.input_message {
+    @extend .input;
+    height: auto;
+    resize: none;
+}
+
+.form_text {
+    margin: 0;
+    color: #B1B1B1;    
+    font-size: 12px;
+}
+
+.button {
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #0052D4 0%, #4364F7 50%, #6FB1FC 100%);
+    border: none;
+    border-radius: 30px;
+}

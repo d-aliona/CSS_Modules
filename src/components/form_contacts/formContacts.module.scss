@@ -1,0 +1,24 @@
+.container {
+    width: 100%;
+    height: 1289px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    background-color: #FBFBFB;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imgDecor {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+.text {
+    margin: 70px auto 0;
+    color: #818181;
+    font-size: 18px;
+    font-weight: 500;
+}

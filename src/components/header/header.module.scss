@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: relative;
+    align-items: center; 
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 4px 18px rgba(138, 138, 138, 0.1);  
+}
+
+.logo {
+    position: absolute;
+    left: 17%;
+}
+
+.header_menu {
+    position: absolute;
+    left: 46%;
+}
+
+.header_menuref {
+    margin-right: 45px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000; 
+}
+
+.header_auth {
+    position: absolute;
+    right: 17%;
+
+    span {
+       margin-right: 10px; 
+    }
+}
+
+.header_authref {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+} 
